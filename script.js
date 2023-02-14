@@ -25,7 +25,6 @@ function clearValues() {
 function order() {
 	popup();
 	var items = document.querySelectorAll("input")
-	console.log(items)
 	var output = "<p>"
 	for (let i = 0; i < items.length; i++){
 		var val = parseInt(items[i].value)
